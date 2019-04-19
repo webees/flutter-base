@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fluro/fluro.dart';
 
-import 'routes/index.dart';
+import './routes.dart';
 
 /// 入口
 void main() {

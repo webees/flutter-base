@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:fluro/fluro.dart';
 
-import '../views/root/index.dart';
+import './index.dart';
 
-var rootHandler = new Handler(
+var newsHandler = new Handler(
   handlerFunc: (BuildContext context, Map<String, List<String>> params) {
-    return new RootView();
+    return new NewsView();
   },
 );

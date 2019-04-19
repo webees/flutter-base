@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
 
+import './_bar.dart';
+
 class RootView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello world！'),
-        ),
-      ),
+      // theme: ThemeData.dark(),
+      home: Bar(),
     );
   }
 }

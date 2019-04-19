@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class DemoView extends StatelessWidget {
+class NewsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Demo View'),
+          child: Text('NewsView'),
         ),
       ),
     );
