@@ -1,4 +1,4 @@
-package com.example.abckey;
+package com.example.flutter_base;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

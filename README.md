@@ -1,6 +1,6 @@
-# Flutter 项目基础
+# flutter_base
 
-路由处理：fluro
+A new Flutter project.
 
 ## Getting Started
 
