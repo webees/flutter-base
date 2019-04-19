@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 
-import './_bar.dart';
+import '../home/index.dart';
+import '../market/index.dart';
+import '../exchange/index.dart';
+import '../news/index.dart';
+import '../my/index.dart';
+
+part './_bar.dart';
 
 class RootView extends StatelessWidget {
   @override

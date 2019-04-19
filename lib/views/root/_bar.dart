@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../home/index.dart';
-import '../market/index.dart';
-import '../exchange/index.dart';
-import '../news/index.dart';
-import '../my/index.dart';
+part of './index.dart';
 
 class Bar extends StatefulWidget {
   const Bar() : super();
