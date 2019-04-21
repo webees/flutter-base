@@ -1,16 +1,11 @@
 import 'package:fish_redux/fish_redux.dart';
 
 enum HomeAction {
-  update,
+  plusOne,
 }
 
 class HomeActionCreator {
-  static Action update(int count) {
-    return Action(
-      HomeAction.update,
-      payload: {
-        'count': count,
-      },
-    );
+  static Action plusOne() {
+    return Action(HomeAction.plusOne);
   }
 }

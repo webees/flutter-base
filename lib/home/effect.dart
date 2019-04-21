@@ -5,7 +5,7 @@ import 'state.dart';
 
 Effect<HomeState> buildEffect() {
   return combineEffects(<Object, Effect<HomeState>>{
-    HomeAction.update: _onAction,
+    HomeAction.plusOne: _onAction,
   });
 }
 

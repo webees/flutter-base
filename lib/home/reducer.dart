@@ -6,14 +6,13 @@ import 'state.dart';
 Reducer<HomeState> buildReducer() {
   return asReducer(
     <Object, Reducer<HomeState>>{
-      HomeAction.update: _updateReducer,
+      HomeAction.plusOne: _plusOneReducer,
     },
   );
 }
 
-HomeState _updateReducer(HomeState state, Action action) {
-  final Map payload = action.payload ?? {}; //获取action附带的数据
+HomeState _plusOneReducer(HomeState state, Action action) {
   final HomeState newState = state.clone();
-  newState.count = payload['count'] ?? newState.count;
+  newState.count = newState.count + 1;
   return newState;
 }

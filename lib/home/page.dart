@@ -9,8 +9,12 @@ class RoootPage extends Page<HomeState, Map<String, dynamic>> {
   RoootPage()
       : super(
           initState: initState,
-          effect: buildEffect(),
+          // effect: buildEffect(),
           reducer: buildReducer(),
           view: buildView,
+          dependencies: Dependencies<HomeState>(
+            adapter: null,
+            slots: <String, Dependent<HomeState>>{},
+          ),
         );
 }

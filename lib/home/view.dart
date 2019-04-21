@@ -11,9 +11,8 @@ Widget buildView(HomeState state, Dispatch dispatch, ViewService viewService) {
     ),
     floatingActionButton: FloatingActionButton(
       onPressed: () {
-        //点击按钮发送意图
         dispatch(
-          HomeActionCreator.update(state.count + 1),
+          HomeActionCreator.plusOne(),
         );
       },
       child: Icon(Icons.plus_one),
